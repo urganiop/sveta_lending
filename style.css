@@ -344,14 +344,14 @@
 
 /*2-nd block-------------------------------------------------------*/
 
-.second_block {
+.second_block_1 {
     height: 453px;
     display: flex;
     justify-content: center;
 }
 
 .icon_block_1 {
-/*    width: 739px;*/
+    /*    width: 739px;*/
     width: 813px;
     height: 412px;
     display: flex;
@@ -368,6 +368,7 @@
 .icon_second_row {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 24px;
 }
 
 .ico_1 {
@@ -395,7 +396,8 @@
 }
 
 /*классы, относящиеся к ico_1*/
-.i1{
+
+.i1 {
     font-family: Arial;
     font-size: 20px;
     font-weight: normal;
@@ -407,7 +409,8 @@
     color: #28417c;
     width: 170px;
 }
-.i2{
+
+.i2 {
     font-family: Arial;
     font-size: 20px;
     font-weight: normal;
@@ -419,7 +422,8 @@
     color: #28417c;
     width: 180px;
 }
-.i3{
+
+.i3 {
     font-family: Arial;
     font-size: 20px;
     font-weight: normal;
@@ -431,7 +435,8 @@
     color: #28417c;
     width: 165px;
 }
-.i4{
+
+.i4 {
     font-family: Arial;
     font-size: 20px;
     font-weight: normal;
@@ -443,7 +448,8 @@
     color: #28417c;
     width: 156px;
 }
-.i5{
+
+.i5 {
     width: 170px;
     font-family: Arial;
     font-size: 20px;
@@ -455,7 +461,8 @@
     text-align: center;
     color: #28417c;
 }
-.i6{
+
+.i6 {
     width: 161px;
     font-family: Arial;
     font-size: 20px;
@@ -468,11 +475,40 @@
     color: #28417c;
 }
 
-.ico_1_img{
+.ico_1_img {
     display: flex;
     justify-content: center;
 }
 /*----------------------------*/
+
+.second_block_2 {
+    height: 930px;
+    width: 1920px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sb_main_text {
+    margin-top: 52px;
+    width: 729px;
+    height: 35px;
+    font-family: Arial;
+    font-size: 36px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 0.67;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ff9fff;
+}
+
+.sb_worries{
+    height: 821px;
+    width: 954px;
+    margin-top: 22px;
+}
 
 @font-face {
     font-family: ArialNarrow;
@@ -480,3 +516,5 @@
     font-style: normal;
     font-weight: normal;
 }
+
+
