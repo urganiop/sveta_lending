@@ -7,7 +7,7 @@
 }
 
 .header {
-    width: 100%;
+    width: 1920px;
     height: 220px;
     /*    border: 1px solid black;*/
     display: flex;
@@ -17,9 +17,11 @@
 
 .body {
     width: 1920px;
+    height: 9000px;
     /*    border: 1px solid black;*/
     display: flex;
     flex-direction: column;
+    background: url(img/IMG_4431bc.png);
 }
 
 .footer {
@@ -165,9 +167,10 @@
 /*BODY------------------------------------------------------------*/
 
 .first_block {
-    height: 839px;
+    /*    height: 839px;*/
+    height: 789px;
     width: 1920px;
-    background: #ffffff url(img/IMG_4431.png);
+    /*    background: #ffffff url(img/IMG_4431.png);*/
     padding: 0px;
     padding-top: 50px;
     display: flex;
@@ -230,16 +233,43 @@
 }
 
 .hurry {
+    padding-top: 20px;
     margin-top: 10px;
     width: 261px;
-    height: 157px;
+    height: 137px;
+    /* 157px*/
     border: solid 1px #28417c;
     border-radius: 8px;
+    /*
     display: flex;
     justify-content: center;
+*/
+    background: url(img/card.jpg);
+}
+
+.sale_price {
+    position: relative;
+    z-index: 1;
+    top: -20px;
+    left: -73px;
+}
+
+.sp_text {
+    position: relative;
+    top: -60px;
+    left: -87px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: center;
+    transform: rotate(5deg);
 }
 
 .hurry_text {
+    position: relative;
+    left: 30px;
     width: 199px;
     height: 114px;
     font-family: Arial;
@@ -479,6 +509,7 @@
     display: flex;
     justify-content: center;
 }
+
 /*----------------------------*/
 
 .second_block_2 {
@@ -501,13 +532,148 @@
     line-height: 0.67;
     letter-spacing: normal;
     text-align: center;
-    color: #ff9fff;
+    color: #ffffff;
 }
 
-.sb_worries{
-    height: 821px;
+.sb_worries {
+    height: 679px;
     width: 954px;
     margin-top: 22px;
+}
+
+/*к worries-------------*/
+
+.worries_text_1 {
+    position: relative;
+    left: 100px;
+    top: 65px;
+    width: 163px;
+    height: 71px;
+    font-family: Arial;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.43;
+    letter-spacing: normal;
+    text-align: center;
+    color: #28417c;
+}
+
+.worries_text_2 {
+    position: relative;
+    left: 424px;
+    top: -7px;
+    width: 196px;
+    height: 74px;
+    font-family: Arial;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.43;
+    letter-spacing: normal;
+    text-align: center;
+    color: #28417c;
+}
+
+.worries_text_3 {
+    position: relative;
+    left: 758px;
+    top: -80px;
+    width: 170px;
+    height: 72px;
+    font-family: Arial;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.43;
+    letter-spacing: normal;
+    text-align: center;
+    color: #28417c;
+}
+
+.worries_text_4 {
+    position: relative;
+    left: 90px;
+    top: 170px;
+    width: 188px;
+    height: 72px;
+    font-family: Arial;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.43;
+    letter-spacing: normal;
+    text-align: center;
+    color: #28417c;
+}
+
+.worries_text_5 {
+    position: relative;
+    left: 434px;
+    top: 95px;
+    width: 173px;
+    height: 33px;
+    font-family: Arial;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.43;
+    letter-spacing: normal;
+    text-align: center;
+    color: #28417c;
+}
+
+.worries_text_6 {
+    position: relative;
+    left: 758px;
+    top: 65px;
+    width: 165px;
+    height: 53px;
+    font-family: Arial;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.43;
+    letter-spacing: normal;
+    text-align: center;
+    color: #28417c;
+}
+
+/*----------------------*/
+
+.experts {
+    width: 746px;
+    height: 104px;
+    border: solid 2px #ffffff;
+    border-radius: 6px;
+    background-color: rgba(255, 255, 255, .5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.experts_text {
+    width: 550px;
+    height: 44px;
+    font-family: Arial;
+    font-size: 20px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.2;
+    letter-spacing: normal;
+    text-align: center;
+    color: #39393a;
+}
+
+.experts_ET{
+    color: #28417c;
 }
 
 @font-face {
@@ -516,5 +682,3 @@
     font-style: normal;
     font-weight: normal;
 }
-
-
