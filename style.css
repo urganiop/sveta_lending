@@ -672,9 +672,231 @@
     color: #39393a;
 }
 
-.experts_ET{
+.experts_ET {
     color: #28417c;
 }
+
+/*third_block----------------------------------------------------------*/
+
+.third_block_1 {
+    height: 1210px;
+    width: 1920px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.third_block_1_title {
+    width: 856px;
+    height: 75px;
+    font-family: Arial;
+    font-size: 36px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1;
+    letter-spacing: normal;
+    text-align: center;
+    color: #28417c;
+    margin-top: 47px;
+    text-transform: uppercase;
+}
+
+.six {
+    font-size: 60px;
+    line-height: 0.4;
+    color: #da2128;
+}
+
+.tb_text_description {
+    width: 762px;
+    height: 90px;
+    font-family: Arial;
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    text-align: justify;
+    color: #39393a;
+    margin-top: 55px;
+}
+
+.tb_icon {
+    width: 945px;
+    height: 452px;
+    margin-top: 43px;
+    display: flex;
+    flex-direction: column;
+}
+
+/*tb_icon---------------------*/
+
+.tb_icon_firstrow {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.tb_icon_secondrow {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 28px;
+}
+
+.tb_icon_thirdrow {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 28px;
+}
+
+.icon_text {
+    margin-left: 30px;
+}
+
+.icon_head_text {
+    font-family: Arial;
+    font-size: 30px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 0.8;
+    letter-spacing: normal;
+    text-align: left;
+    color: #28417c;
+}
+
+.icon_normal_text {
+    width: 218px;
+    height: 83px;
+    font-family: Arial;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.71;
+    letter-spacing: normal;
+    text-align: justify;
+    color: #39393a;
+    margin-top: 13px;
+}
+
+.icon_31 {
+    display: flex;
+    flex-direction: row;
+}
+
+/*---------------------------*/
+
+.tb_about_us {
+    height: 347px;
+    width: 1075px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tb_aboutus_text {
+    text-transform: uppercase;
+    width: 212px;
+    height: 19px;
+    font-family: Arial;
+    font-size: 24px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1;
+    letter-spacing: normal;
+    text-align: center;
+    color: #28417c;
+    margin-top: 58px;
+}
+
+.third_block_2 {
+    height: 1083px;
+    width: 1920px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.third_block_2_title {
+    width: 807px;
+    height: 35px;
+    font-family: Arial;
+    font-size: 36px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 0.67;
+    letter-spacing: normal;
+    text-align: center;
+    color: #28417c;
+    margin-top: 43px;
+    text-transform: uppercase;
+}
+
+.tb2_icon{
+    width: 964px;
+    height: 135px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 72px;
+}
+
+.tb2_icon_container{
+    display: flex;
+    flex-direction: row;
+    margin-right: 23px;
+}
+
+.tb2_icon_text1{
+    width: 153px;
+    margin-left: 13px;
+    font-family: Arial;
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  text-align: left;
+  color: #3d3d3d;
+}
+
+.tb2_icon_text2{
+    width: 154px;
+    margin-left: 13px;
+    font-family: Arial;
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  text-align: left;
+  color: #3d3d3d;
+}
+
+.tb2_icon_text3{
+    width: 180px;
+    margin-left: 13px;
+    font-family: Arial;
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  text-align: left;
+  color: #3d3d3d;
+}
+
+
 
 @font-face {
     font-family: ArialNarrow;
