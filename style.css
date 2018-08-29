@@ -839,7 +839,7 @@
     text-transform: uppercase;
 }
 
-.tb2_icon{
+.tb2_icon {
     width: 964px;
     height: 135px;
     display: flex;
@@ -848,55 +848,260 @@
     margin-top: 72px;
 }
 
-.tb2_icon_container{
+.tb2_icon_container {
     display: flex;
     flex-direction: row;
     margin-right: 23px;
 }
 
-.tb2_icon_text1{
+.tb2_icon_text1 {
     width: 153px;
     margin-left: 13px;
     font-family: Arial;
-  font-size: 18px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.33;
-  letter-spacing: normal;
-  text-align: left;
-  color: #3d3d3d;
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    text-align: left;
+    color: #3d3d3d;
 }
 
-.tb2_icon_text2{
+.tb2_icon_text2 {
     width: 154px;
     margin-left: 13px;
     font-family: Arial;
-  font-size: 18px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.33;
-  letter-spacing: normal;
-  text-align: left;
-  color: #3d3d3d;
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    text-align: left;
+    color: #3d3d3d;
 }
 
-.tb2_icon_text3{
+.tb2_icon_text3 {
     width: 180px;
     margin-left: 13px;
     font-family: Arial;
-  font-size: 18px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.33;
-  letter-spacing: normal;
-  text-align: left;
-  color: #3d3d3d;
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    text-align: left;
+    color: #3d3d3d;
 }
 
+/*fourth_block-------------------------------------------------------*/
 
+.fourth_block_1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.fb_title_text {
+    width: 365px;
+    height: 28px;
+    font-family: Arial;
+    font-size: 36px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 0.67;
+    letter-spacing: normal;
+    text-align: center;
+    color: #28417c;
+    margin-top: 49px;
+    text-transform: uppercase;
+}
+
+.fb_text_description {
+    width: 760px;
+    height: 42px;
+    font-family: Arial;
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    text-align: center;
+    color: #39393a;
+    margin-top: 39px;
+}
+
+.fb_programs {
+    width: 888px;
+    height: 397px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.fb_program_container {
+    width: 242px;
+    height: 397px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, .3);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.fb_program_icon {
+    width: 204px;
+    height: 204px;
+    margin-top: 20px;
+}
+
+.fb_program_text {
+    font-family: Arial;
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    color: #ffffff;
+    margin-top: 10px;
+}
+
+.fb_sub_text {
+    width: 176px;
+    font-family: Arial;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+    border-top: 1px solid #ffffff;
+    padding-left: 27px;
+    margin-top: 9px;
+    padding-top: 11px;
+}
+
+.fb_program_button {
+    width: 206px;
+    height: 33px;
+    border-radius: 10px;
+    background-image: linear-gradient(to top, #f9d503, #ffdc0d);
+    font-family: Arial;
+    font-size: 20px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.2;
+    letter-spacing: normal;
+    text-align: center;
+    color: #3b3b3b;
+    padding-top: 15px;
+    margin-top: 12px;
+}
+
+.fb_your_options_text {
+    width: 290px;
+    height: 23px;
+    font-family: Arial;
+    font-size: 24px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1;
+    letter-spacing: normal;
+    color: #28417c;
+    margin-top: 100px;
+}
+
+.fb_your_options {
+    width: 890px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 32px;
+}
+
+.fb_option_audition {
+    width: 243px;
+    text-align: center;
+    font-family: Arial;
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    color: #3b3b3b;
+}
+
+.slider {
+    width: 243px;
+    height: 3px;
+    background-image: linear-gradient(to left, #53b7e8, #28417c 74%, #53b7e8);
+    margin-top: 29px;
+    margin-bottom: 29px;
+}
+
+.fb_option_text {
+    width: 335px;
+    height: 63px;
+    font-family: Arial;
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    text-align: center;
+    color: #3b3b3b;
+    margin-top: 47px;
+}
+
+.fb_two_buttons {
+    width: 851px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 48px;
+}
+
+.fb_button_learn {
+    width: 272px;
+    height: 33px;
+    border-radius: 10px;
+    background-image: linear-gradient(to top, #f9d503, #ffdc0d);
+    font-family: Arial;
+    font-size: 20px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.2;
+    letter-spacing: normal;
+    text-align: center;
+    color: #3b3b3b;
+    padding-top: 12px;
+}
+
+.ili {
+    font-family: Arial;
+    font-size: 20px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.2;
+    letter-spacing: normal;
+    text-align: center;
+    color: #3b3b3b;
+    margin-top: 6px;
+}
 
 @font-face {
     font-family: ArialNarrow;
