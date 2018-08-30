@@ -899,6 +899,8 @@
 /*fourth_block-------------------------------------------------------*/
 
 .fourth_block_1 {
+    height: 1200px;
+    width: 1920px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -1101,6 +1103,153 @@
     text-align: center;
     color: #3b3b3b;
     margin-top: 6px;
+}
+
+.fourth_block_2 {
+    width: 1920px;
+    height: 567px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.fb_2_text {
+    width: 810px;
+    height: 69px;
+    font-family: Arial;
+    font-size: 36px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+    text-shadow: 0 0 27px rgba(0, 0, 1, 0.4);
+    margin-top: 28px;
+    text-transform: uppercase;
+}
+
+.fb_2_subtext {
+    width: 246px;
+    height: 26px;
+    font-family: Arial;
+    font-size: 24px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+    text-shadow: 0 0 27px rgba(0, 0, 1, 0.4);
+    text-transform: uppercase;
+    margin-top: 26px;
+}
+
+.fb_table {
+    width: 971px;
+    height: 305px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, .7);
+    margin-top: 39px;
+}
+
+/*таблица------------------------------*/
+
+table {
+    width: 971px;
+    height: 305px;
+    border-collapse: collapse;
+}
+
+.table_header {
+    font-family: Arial;
+    font-size: 20px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.2;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+}
+
+.table_header td:first-child {
+    border-right: 1px solid white;
+    padding: 0px;
+    padding-left: 15px;
+}
+
+.class_1 {
+    border-right: 1px solid white;
+    width: 403px;
+    padding: 0px;
+    padding-left: 15px;
+    font-family: Arial;
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    color: #ffffff;
+}
+
+.class_2 {
+    width: 240px;
+    border-right: 1px solid white;
+    text-align: center;
+}
+
+.class_3 {
+    width: 160px;
+    border-right: 1px solid white;
+    text-align: center;
+}
+
+.class_4 {
+    width: 161px;
+    text-align: center;
+}
+
+tr {
+    height: 24px;
+    border-bottom: 1px solid white;
+}
+
+tr:last-child {
+    border-bottom: none;
+}
+
+td {}
+
+.table_header {
+    height: 32px;
+}
+
+/*-------------------------------------*/
+
+/*fifth block----------------------------------------------------------*/
+
+.fifth_block_1 {
+    height: 975px;
+    width: 1920px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.fib_text {
+    font-family: Arial;
+    font-size: 36px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 0.67;
+    letter-spacing: normal;
+    color: #28417c;
+    margin-top: 56px;
 }
 
 @font-face {
