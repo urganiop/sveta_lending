@@ -1252,6 +1252,132 @@ td {}
     margin-top: 56px;
 }
 
+.teachers_card {
+    width: 980px;
+    height: 338px;
+    display: flex;
+    margin-top: 65px;
+}
+
+.tc_line {
+    width: 971px;
+    height: 1px;
+    background-image: linear-gradient(to left, #ffffff, rgba(40, 65, 124, 1) 50%, #ffffff);
+    margin-top: 50px;
+}
+
+.foto {
+    width: 323px;
+    height: 323px;
+}
+
+.techcard_info_1 {
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 80px;
+}
+
+.techcard_info_2 {
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 80px;
+}
+
+.t_name {
+    display: flex;
+    flex-direction: row;
+}
+
+.name_ms {
+    width: 117px;
+}
+
+.name_name {
+    font-family: Arial;
+    font-size: 24px;
+    line-height: 1;
+    color: #28417c;
+    margin-bottom: 30px;
+}
+
+.name_text {
+    height: 98px;
+    font-family: Arial;
+    font-size: 14px;
+    line-height: 1.71;
+    text-align: left;
+    color: #3d3d3d;
+}
+
+.seven_years {
+    width: 70px;
+    background-color: #53b7e8;
+    font-family: Arial;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #ffffff;
+    text-align: center;
+}
+
+.name_abilities {
+    width: 335px;
+    margin-left: 100px;
+}
+
+.teachers_pros {
+    list-style-image: url(img/check_red.svg);
+    font-family: Arial;
+    font-size: 14px;
+    text-align: left;
+    color: #3d3d3d;
+    line-height: 2;
+}
+
+.t_text {
+    width: 570px;
+    height: 86px;
+    font-family: Arial;
+    font-size: 14px;
+    text-align: justify;
+    color: #3d3d3d;
+    margin-top: 16px;
+    line-height: 1.3;
+}
+
+.t_certificate {
+    height: 60px;
+    width: 600px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 17px;
+    font-family: Arial;
+    font-size: 14px;
+    color: #3d3d3d;
+}
+
+.fifth_block_2 {
+    width: 1920px;
+    height: 460px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.fib2_main_text {
+    text-transform: uppercase;
+    width: 530px;
+    height: 28px;
+    font-family: Arial;
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 0.67;
+    color: #ffffff;
+    margin-top: 41px;
+}
+
 @font-face {
     font-family: ArialNarrow;
     src: url(fonts/arial-narrow.ttf);
