@@ -1378,6 +1378,49 @@ td {}
     margin-top: 41px;
 }
 
+.pupil_card {
+    display: flex;
+    flex-direction: row;
+    margin-top: 80px;
+}
+
+.pupil_icon {
+    width: 175px;
+    height: 176px;
+}
+
+.pupil_info {
+    width: 700px;
+    margin-left: 9px;
+}
+
+.pi_name {
+    font-family: Arial;
+    font-size: 24px;
+    line-height: 1;
+    color: #ffffff;
+    margin-bottom: 13px;
+}
+
+.pi_years {
+    font-family: Arial;
+    font-size: 18px;
+    line-height: 1.33;
+    color: #ffffff;
+    margin-bottom: 13px;
+}
+
+.pi_text {
+    width: 698px;
+    height: 154px;
+    font-family: Arial;
+    font-size: 14px;
+    line-height: 1.4;
+    letter-spacing: normal;
+    text-align: justify;
+    color: #f1f0f0;
+}
+
 @font-face {
     font-family: ArialNarrow;
     src: url(fonts/arial-narrow.ttf);
