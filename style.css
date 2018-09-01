@@ -17,7 +17,7 @@
 
 .body {
     width: 1920px;
-    height: 9000px;
+    min-height: 9000px;
     /*    border: 1px solid black;*/
     display: flex;
     flex-direction: column;
@@ -1419,6 +1419,164 @@ td {}
     letter-spacing: normal;
     text-align: justify;
     color: #f1f0f0;
+}
+
+/*sixth block----------------------------------------------------------*/
+
+.sixth_block_1 {
+    height: 845px;
+    width: 1920px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sb_1_main_text {
+    text-transform: uppercase;
+    font-family: Arial;
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 0.67;
+    color: #28417c;
+    margin-top: 54px;
+}
+
+.sb1_sub_text {
+    width: 759px;
+    height: 41px;
+    font-family: Arial;
+    font-size: 18px;
+    line-height: 1.33;
+    color: #39393a;
+    margin-top: 44px;
+    text-align: center;
+}
+
+.free6 {
+    color: #28417c;
+    font-size: 18px;
+}
+
+.sb_form {
+    width: 324px;
+    height: 485px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, .4);
+    margin-top: 69px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sb_form_q {
+    margin-top: 20px;
+    font-family: Arial;
+    font-size: 18px;
+    line-height: 1.33;
+    color: #ffffff;
+}
+
+.sb_input1 {
+    margin-top: 20px;
+    background-color: #ededed;
+    width: 290px;
+}
+
+.sb_input {
+    background-color: #ededed;
+    width: 290px;
+    height: 30px;
+}
+
+.sb_form_button {
+    width: 293px;
+    height: 47px;
+    background-image: linear-gradient(to top, #f9d503, #ffdc0d);
+    font-family: Arial;
+    font-size: 19px;
+    line-height: 1.26;
+    text-align: center;
+    color: #3a3a39;
+    border-radius: 4px;
+    margin-top: 13px;
+}
+
+.back {
+    font-family: Arial;
+    font-size: 19px;
+    line-height: 1.26;
+    color: #28417c;
+    margin-top: 12px;
+}
+
+.img_back {
+    margin-top: 42px;
+}
+
+.sixth_block_2 {
+    height: 723px;
+    width: 1920px;
+}
+
+.map {
+    position: absolute;
+    width: 100%;
+    height: 723px;
+}
+
+.map_contacts {
+    position: relative;
+    width: 1920px;
+    height: 368px;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, .5);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.last_contacts {
+    font-family: Arial;
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 0.67;
+    color: #ffffff;
+    text-transform: uppercase;
+    margin-top: 42px;
+}
+
+.come {
+    margin-top: 39px;
+    font-family: Arial;
+    font-size: 20px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.2;
+    letter-spacing: normal;
+    text-align: justify;
+    color: #ffffff;
+}
+
+.work_time {
+    margin-top: 63px;
+    font-family: Arial;
+    font-size: 18px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+}
+
+.red{
+    color: #da2128;
+}
+
+.blue{
+    color: #28417c;
 }
 
 @font-face {
